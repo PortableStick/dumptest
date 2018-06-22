@@ -14,7 +14,7 @@
     "eject": "react-scripts-ts eject",
     "pretty": "prettier --config .prettierrc.json --write \"src/**/*.[j|t]s?(x)\"",
     "prepush:lint": "eslint -c .eslintrc.precommit.json src && tslint -c tslint.precommit.json \"src/**/*.ts?(x)\"",
-    "precommit": "echo 'fuckery' && npm run pretty && npm run prepush:lint"
+    "prepush": "echo 'fuckery' && npm run pretty && npm run prepush:lint"
   },
   "devDependencies": {
     "@types/jest": "^23.1.1",
